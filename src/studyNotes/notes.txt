@@ -1,0 +1,16 @@
+Fundamentals of Angular
+1. Angular embraces Component based architecture, which allows us to work on smaller and more maintainable pieces that can also be reused in different places. So once again, the Component encapsulates the Data the, HTML markup, and the Logic for a view, which is an area of the screen that the user sees. Every application has a at least one component that we call App Component, or Root Component. A real world app, is essentially a tree of Components, starting from the App Component, or the Root Component.
+
+
+2. A Module, is a container for a group of related Components. Every Angular app has at least one module which we call App Module. As your application grows, you may want to break that Module into smaller, more maintainable Modules.`
+
+
+---
+three steps to use a component
+1. create 
+2. register it in module.
+3. add html markup
+
+----
+Directive. 
+We use Directives to manipulate the dom, we can use them to add a dom element, our move an existing dom element, or change the class of a dom element, or it's style and so on.
