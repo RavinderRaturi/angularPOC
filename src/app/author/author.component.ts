@@ -14,6 +14,8 @@ export class AuthorComponent implements OnInit {
 
    title = "Author Lists";
    author;
+   imageURl = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
+   colSpan =2;
 
   ngOnInit(): void {
   }
